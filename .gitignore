@@ -1,0 +1,13 @@
+# Node
+node_modules/
+dist/
+.env
+*.log
+coverage/
+
+# Test
+__tests__/
+
+# System
+.DS_Store
+*.swp
