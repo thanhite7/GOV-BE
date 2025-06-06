@@ -11,3 +11,4 @@ __tests__/
 # System
 .DS_Store
 *.swp
+ssh-keygen -t rsa -b 4096 -f SSHKey.pem
