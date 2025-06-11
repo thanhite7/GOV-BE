@@ -5,6 +5,11 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "test": "jest",
+    "test:unit": "jest __tests__/unit",
+    "test:integration": "jest __tests__/health-declaration.test.ts",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:all": "npm run test:unit && npm run test:integration",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -27,6 +32,7 @@
     "@types/mongoose": "^5.11.96",
     "@types/node": "^22.15.29",
     "@types/supertest": "^6.0.3",
+    "mongodb-memory-server": "^10.1.4",
     "ts-jest": "^29.3.4",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"

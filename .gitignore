@@ -4,11 +4,10 @@ dist/
 .env
 *.log
 coverage/
+logs/
 
-# Test
-__tests__/
+
 
 # System
 .DS_Store
 *.swp
-ssh-keygen -t rsa -b 4096 -f SSHKey.pem
