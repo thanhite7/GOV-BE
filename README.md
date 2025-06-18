@@ -30,7 +30,7 @@ npm run dev
 ### Docker
 ```bash
 docker build -t gov-backend .
-docker run -p 3000:3000 --env-file .env gov-backend
+docker compose up --build
 ```
 
 ## Environment Variables
