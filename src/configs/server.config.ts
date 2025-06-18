@@ -5,8 +5,7 @@ import { initializeRoutes } from './route.config';
 import { connectDB } from './db.config';
 import requestLogger from '../middleware/logger.middleware';
 import globalErrorHandler from '../middleware/error.middleware';
-import notFoundHandler from '../middleware/notFound.middleware';
-
+import  notFoundHandler  from '../middleware/notFound.middleware';
 dotenv.config();
 
 const app = express();

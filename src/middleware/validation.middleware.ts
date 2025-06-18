@@ -21,11 +21,12 @@ const validateHealthDeclaration = (req: Request, res: Response, next: NextFuncti
   }
 
   if (errors.length > 0) {
-    return res.status(400).json({
+    res.status(400).json({
       success: false,
       message: 'Validation failed',
       errors
     });
+    return;
   }
 
   next();
