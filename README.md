@@ -47,11 +47,7 @@ FRONTEND_URL=http://localhost:5173
 ```bash
 npm test
 npm run test:unit
-npm run test:integration
-npm run test:coverage
 ```
-
-**Coverage**: 100% for controllers and services
 
 ## API Endpoints
 
